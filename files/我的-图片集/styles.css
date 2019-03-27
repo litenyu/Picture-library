@@ -161,9 +161,9 @@
 #u594 {
   position:fixed;
   left:50%;
-  margin-left:-692px;
+  margin-left:-625px;
   top:83px;
-  width:1384px;
+  width:1250px;
   height:750px;
   overflow:hidden;
 }
@@ -172,12 +172,10 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:1384px;
+  width:1250px;
   height:750px;
-  -ms-overflow-x:hidden;
-  overflow-x:hidden;
-  -ms-overflow-y:hidden;
-  overflow-y:hidden;
+  overflow:auto;
+  -webkit-overflow-scrolling:touch;
   background-image:none;
 }
 #u594_state0_content {

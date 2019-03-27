@@ -163,10 +163,9 @@
 }
 #u231 {
   position:fixed;
-  left:50%;
-  margin-left:-692px;
+  right:0px;
   top:83px;
-  width:1384px;
+  width:1250px;
   height:677px;
   overflow:hidden;
 }
@@ -175,12 +174,10 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:1384px;
+  width:1250px;
   height:677px;
-  -ms-overflow-x:hidden;
-  overflow-x:hidden;
-  -ms-overflow-y:hidden;
-  overflow-y:hidden;
+  overflow:auto;
+  -webkit-overflow-scrolling:touch;
   background-image:none;
 }
 #u231_state0_content {
